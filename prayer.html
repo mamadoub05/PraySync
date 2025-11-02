@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salah Positions and Recitations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🕌 Salah Positions & Recitations</h1>
+    
+    <div class="buttons">
+      <button onclick="showPosition('takbir')">Takbir</button>
+      <button onclick="showPosition('ruku')">Rukū‘</button>
+      <button onclick="showPosition('standing')">Standing</button>
+      <button onclick="showPosition('sujood')">Sujūd</button>
+      <button onclick="showPosition('sitting')">Sitting</button>
+      <button onclick="showPosition('tasleem')">Taslīm</button>
+    </div>
+
+    <div id="display" class="display">
+      <img id="positionImage" alt="Position Image">
+      <h2 id="positionTitle"></h2>
+      <p class="arabic" id="arabicText"></p>
+      <p class="translit" id="translitText"></p>
+      <p class="meaning" id="meaningText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
