@@ -4,42 +4,42 @@ const positions = {
     arabic: "اللّٰهُ أَكْبَر",
     translit: "Allāhu Akbar",
     meaning: "Allah is the Greatest.",
-    image: "images/takbir.jpg"
+    image: "takbir.jpg"
   },
   ruku: {
     title: "Rukū‘ (Bowing)",
     arabic: "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
     translit: "Subḥāna rabbiyal-‘aẓīm",
     meaning: "Glory be to my Lord, the Most Great.",
-    image: "images/ruku.jpg"
+    image: "ruku.jpg"
   },
   standing: {
     title: "Standing after Rukū‘",
     arabic: "رَبَّنَا وَلَكَ الْحَمْدُ",
     translit: "Rabbana wa laka al-ḥamd",
     meaning: "Our Lord, to You belongs all praise.",
-    image: "images/takbir.jpg"
+    image: "takbir.jpg"
   },
   sujood: {
     title: "Sujūd (Prostration)",
     arabic: "سُبْحَانَ رَبِّيَ الأَعْلَى",
     translit: "Subḥāna rabbiyal-a‘lā",
     meaning: "Glory be to my Lord, the Most High.",
-    image: "images/sujood.webp"
+    image: "sujood.webp"
   },
   sitting: {
     title: "Sitting Between Sujoods",
     arabic: "رَبِّ اغْفِرْ لِي",
     translit: "Rabbighfir lī",
     meaning: "My Lord, forgive me.",
-    image: "images/sitting.ppm"
+    image: "sitting.ppm"
   },
   tasleem: {
     title: "Taslīm (End of Prayer)",
     arabic: "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ",
     translit: "As-salāmu ‘alaykum wa raḥmatullāh",
     meaning: "Peace and mercy of Allah be upon you.",
-    image: "images/tasleem.jpeg"
+    image: "tasleem.jpeg"
   }
 };
 
